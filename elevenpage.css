@@ -1,0 +1,114 @@
+@import url(root.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.elevenpage{
+    height: 488px;
+    background-image    : var(--bs-gradient);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerdata{
+    height: 85%;
+    width: 80%;
+    /* background-color: red; */
+}
+
+.footerdatafirst{
+    /* background-color: aqua;   */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--bs-white);
+}
+.iconslist>i{
+    font-size: 35px; 
+    padding-right: 30px;
+
+}
+.location{
+    display: flex;
+    align-items: center;
+    
+}
+.location>i{
+    font-size: 55px; 
+}
+.location>p{
+    font-size: 16px; 
+    margin-left: 15px;
+    color:var(--bs-gray-400);
+
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+
+}
+.phone>i{
+    font-size: 55px; 
+
+}
+.phone>p{
+    font-size: 14px; 
+    margin-left: 15px;
+    color:var(--bs-gray-400);
+
+}
+
+
+
+.footerlist{
+    width: 100%;
+    /* background-color:chocolate; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+
+
+
+.signupbutton{
+    margin-top: 40%;
+}
+
+.bn63 {
+    color: var(--bs-white );
+    background-color: var(--bs-white);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    width: 348px;
+    font-size: large;
+    font-weight: 600;
+    border: 1px solid #707070;
+    text-decoration: none;
+   
+  
+  }
+  
+  .bn63 .signup{
+    margin-top: 15px;
+    margin-left: 70px;
+  }
+  .bn63 span{
+    height: 48px;
+    width: 94px;
+    border-radius: 50px;
+    background-color: var(--bs-code-color);
+    margin-left: 50%;
+    text-align: center;
+    padding-top: 8px;
+    
+  }

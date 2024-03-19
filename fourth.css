@@ -1,0 +1,46 @@
+@import url(root.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fourthpage {
+    height: 700px;
+    width: 100%;
+    background-color: var(--bs-white);
+  }
+
+  .heading{
+    text-align: center;
+    padding-top: 80px;
+    font-weight: 700;
+    color: var(--bs-code-color);
+  }
+  .iconslists{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .iconsname {
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+    text-align: center;
+    
+  }
+
+  .iconsname>img{
+    width: auto;
+    height: 110px;
+    margin-bottom: 20px;
+  }
+
+  .iconsname>p{
+    font-size: 16px;
+    color: var(--bs-code-color);
+    font-weight: 700;
+    text-align: center;
+  }
