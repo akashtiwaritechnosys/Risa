@@ -7,8 +7,9 @@
 }
 
 .elevenpage{
-    height: 488px;
-    background-image    : var(--bs-gradient);
+    /* margin-top: -100px; */
+    height: auto;
+    background-image: var(--bs-gradient);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,6 +28,7 @@
     justify-content: space-between;
     align-items: center;
     color: var(--bs-white);
+    margin-top: 40px;
 }
 .iconslist>i{
     font-size: 35px; 
@@ -112,3 +114,28 @@
     padding-top: 8px;
     
   }
+
+  .footerlink{
+    font-size: 14px; 
+    text-decoration: none; 
+    color:var(--bs-gray-400);
+    transition: transform  0.5s ease-in-out;
+  }
+  .footerlink1{
+    margin-left: 160%;
+    width: 100%;
+  }
+.footerlink:hover{
+    transform: scale(1.2);
+    text-decoration:underline; 
+
+  }
+
+
+
+
+
+
+
+
+  

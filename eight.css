@@ -20,10 +20,11 @@
 
 .years{
     display: flex;
+    align-items: center;
     justify-content:space-between;
     width: 70%;
     margin-left:15%;
-    margin-top: 10%;
+    margin-top: 8%;
     /* background-color: aqua; */
 }
 
@@ -31,4 +32,16 @@
     text-align: center;
     color: var(--bs-white);
     font-size: 22px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .years {
+        flex-direction: column;
+        align-items: center;
+    }
+    .years h4 {
+        margin-bottom: 20px;
+    }
 }

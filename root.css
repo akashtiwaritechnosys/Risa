@@ -1,12 +1,14 @@
 :root{
     --bs-white: #FFFFFF;
     --bs-black:#000000;
+    
     --bs-blue:#36286B;
     --bs-pink-2:#E28389;
     --bs-color-gray-1: #A0A0A0;
     --bs-color-gray-2: #606060  ;
     --bs-color-gray-3:#333333;
     --bs-color-gray-4:#707070;
+    --bs-color-gray-5:#181717;
     --bs-gray-300: #d5d8db;
     --bs-gray-400: #eaecee;
     --bs-code-color: #AC3B67;

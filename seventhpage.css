@@ -7,8 +7,8 @@
 }
 
 .seventhpage{
-    height: 1466px;
-    width: 100%;
+    /* height: auto; */
+    width: auto;
     background-color: white;
 }
 .contactform{
@@ -84,6 +84,7 @@
     background-color: var(--bs-color-gray-4);
     border-radius: 3px;
     color: var(--bs-white);
+
 }
 
 
@@ -92,4 +93,37 @@
     margin-top: 10%;
     color: var(--bs-blue);
     font-size: 35px;
+    margin-bottom: 80px;
+}
+
+
+
+@media only screen and (max-width: 824px) {
+    .addressform {
+        flex-direction: column;
+    }
+
+    .firstadd,
+    .secondadd {
+        width: 100%;
+    }
+
+    .firstadd1,
+    .secondadd1 {
+        margin-top: 10%;
+    }
+    .borders1{
+        padding: 5%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .inpform input,
+    .inpform textarea {
+        margin-bottom: 5%;
+    }
+
+    .inpform button {
+        margin-top: 5%;
+    }
 }

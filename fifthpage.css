@@ -1,140 +1,202 @@
 @import url(root.css);
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.fifthpage{
-    height: 695px;
-    width: 100%;
-    background-image: var(--bs-gradient-1);
-    /* background-color: aqua; */
+.fifthpage {
+  height: auto;
+  width: 100%;
+  background-image: var(--bs-gradient-1);
+  /* background-color: aqua; */
 }
 
-.heading5{
-    text-align: center;
-    padding-top: 70px;
-    color: var(--bs-white);
-    font-size: 20px;
+.heading5 {
+  text-align: center;
+  padding-top: 70px;
+  color: var(--bs-white);
+  font-size: 20px;
 }
 
-.testimonials{
-    height: 417px;
-    margin-top: 70px;
-    /* background-color: aqua; */
-    display: flex;
-    justify-content: center;
+.testimonials {
+  height: 417px;
+  margin-top: 70px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
 }
 
-.lefttestimonil{
+/* .lefttestimonil{
     width: 464px;
-    height: 417px;
     background-color: var(--bs-pink-2);
+    margin-bottom: 50px;
+} */
+
+.spicific {
+  margin-top: 30px;
+  font-size: 20px;
+  color: var(--bs-white);
+  margin-left: 30px;
+}
+.spicificlist {
+  margin-top: 30px;
+}
+.spicificlist li {
+  list-style: none;
+  margin-top: 8px;
 }
 
-.spicific{
-    margin-top: 30px;
-    font-size: 20px;
-    color: var(--bs-white);
+.spicificlist li a {
+  color: var(--bs-white);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.testimonial {
+  width: 744px;
+  height: 417px;
+  text-align: center;
+  /* background-color: aqua; */
+}
+/* .carouseldata{
     margin-left: 30px;
-}
-.spicificlist{
-    margin-top: 30px;
-}
-.spicificlist li{
-    list-style: none;
-    margin-top: 8px;
-}
 
-.spicificlist li a{
-    color: var(--bs-white);
-    text-decoration: none;
-    font-size: 16px;
-}
+} */
 
-
-.righttestimonial{
-    width: 444px;
-    height: 417px;
-    /* background-color: aqua; */
-}
-.carouseldata{
-    margin-left: 30px;
-
-}
-
-.general{
-    margin-left: 30px;
-    margin-top: 30px;
-    font-size: 20px;
-    color: var(--bs-white);
+.general {
+  /* margin-left: 30px; */
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+  color: var(--bs-white);
 }
 
 /* ---- */
 .carousel-indicators {
-    position: absolute;
-    
-    transform: translateX(-65%);
+  position: absolute;
+
+  transform: translateX(-65%);
 }
 
 .carousel-indicators .dot {
-    cursor: pointer;
-    height: 10px;
-    width: 10px;
-    border-radius: 100%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
 .dot.active,
 .dot:hover {
-    background-color: red;
+  background-color: red;
 }
 
-
-
-.carousel-indicators{
-
-bottom: -30%;
-left: 4%;
+.carousel-indicators {
+  bottom: -50%;
+  left: 39%;
 }
 .container {
-    position: relative;
+  position: relative;
+}
+.carousel-control-prev {
+  position: absolute;
+  left: 45%;
+}
+
+.carousel-control-next{
+  position: absolute;
+right: 45%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  bottom: 0;
+  top: 160%;
+  height: 30px;
+  width: 30px;
+  border: 2px solid white;
+  border-radius: 50%;
+  /* transform: translateY(60%); */
+}
+
+.carousel-item-para1 {
+  color: var(--bs-white);
+  /* margin-left: 5px; */
+  font-size: 15px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.carousel-item-para2 {
+  color: rgb(224, 217, 217);
+  /* margin-left: 5px; */
+  font-size: 13px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .testimonials {
+    flex-direction: column;
+    align-items: center;
   }
-  .carousel-control-prev{
-    position: absolute;
-    left: 80%;
-   
+
+  .testimonial {
+    width: 90%;
+    margin-bottom: 30px;
   }
-  
+
+  .carousel-indicators {
+    /* bottom: -0%; */
+    left: 35%;
+    transform: translateX(-50%);
+  }
+
   .carousel-control-prev,
   .carousel-control-next {
     position: absolute;
-    bottom: 0;
-    top: 140%;
-    height: 30px;
-    width: 30px;
-    border: 2px solid white;
-    border-radius: 50%;
-    transform: translateY(60%);
+    top: 155%;
+    /* transform: translateX(-50%); */
   }
 
-  .carousel-item-para1{
-    color: var(--bs-white);
-    margin-left: 5px;
-    font-size: 13px;
-    margin-top: 30px;
+  .carousel-control-prev {
+    left: 43%;
   }
 
-  .carousel-item-para2{
-    color: rgb(224, 217, 217);
-    margin-left: 5px;
-    font-size: 11px;
-    margin-top: 30px;
+  .carousel-control-next {
+    right: 43%;
+  }
+}
 
-
+/* Adjustments for even smaller screens */
+@media (max-width: 576px) {
+  .carousel-indicators {
+    bottom: -55%;
   }
 
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    border-width: 1px;
+  }
 
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 10px;
+    height: 10px;
+  }
+}

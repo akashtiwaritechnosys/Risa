@@ -8,7 +8,7 @@
 
 .tenthpage{
     height: 630px;
-    object-fit: contain;
+    object-fit: cover;
     object-position: center;
 }
 .map>img{
