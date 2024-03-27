@@ -8,7 +8,7 @@
 
 .thirdpage {
   height: 649px;
-  width: 100%;
+  width: 99%;
   margin-top: 10%;
   display: flex;
 }
@@ -220,6 +220,60 @@ color: var(--bs-color-gray-3);
     margin: 0 auto;
   }
 }
+
+
+
+@media (max-width: 412px) {
+  .thirdpage {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .profile {
+    margin-top: 30px;
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .leftcontent3,
+  .rightcontent3 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .rightcontent3 {
+    margin-top: 20px;
+    justify-content: center; /* Center the content horizontally */
+  }
+
+  .profile {
+    margin-top: 30px;
+    margin-left: 0; /* Reset margin */
+    justify-content: center;
+  }
+
+  .rightcontent3data {
+    display: flex;
+    flex-direction: column; /* Display profiles in a single column */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .profile:nth-child(odd) {
+    margin-bottom: 20px; /* Add margin between profiles */
+  }
+
+  .leftcontent3data,
+  .rightcontent3data {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .profile .profiledetails {
+    margin: 10px; /* Add margin between profiles */
+  }
+}
+
+
 
 
 /* Additional media queries for other screen sizes if needed */

@@ -8,6 +8,7 @@
 
 .ninethpage{
     height: 568px;
+    width:100%;
     background-image: var( --bs-gradient-1);
     border: 1px solid #707070;
     display: flex;

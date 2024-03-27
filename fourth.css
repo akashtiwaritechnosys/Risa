@@ -38,9 +38,55 @@
     margin-bottom: 20px;
   }
 
-  .iconsname>p{
+  /* .iconsname>p{
     font-size: 16px;
     color: var(--bs-code-color);
     font-weight: 700;
     text-align: center;
+  } */
+
+
+
+  /* Add this CSS at the end of your existing CSS */
+
+@media only screen and (max-width: 768px) {
+  .fourthpage {
+    height: auto; /* Adjust height as needed */
+    padding: 50px 0; /* Add padding for better spacing */
   }
+
+  .iconslists {
+    flex-direction: column; /* Stack icons vertically on smaller screens */
+  }
+
+  .iconsname {
+    margin-top: 40px; /* Adjust margin for better spacing */
+  }
+
+  .iconsname > img {
+    height: 80px; /* Decrease image height for smaller screens */
+  }
+
+  .iconsname > p {
+    font-size: 14px; /* Decrease font size for smaller screens */
+  }
+}
+
+/* Add more media queries for finer control if needed */
+
+
+
+
+@media (max-width: 412px) {
+  
+  
+
+  .rightcontent4data {
+    margin-left: -20%;
+    display: flex;
+    flex-direction: column; /* Display profiles in a single column */
+    align-items: center; /* Center items horizontally */
+  }
+
+  
+}

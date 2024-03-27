@@ -9,6 +9,7 @@
 .elevenpage{
     /* margin-top: -100px; */
     height: auto;
+    width: 100%;
     background-image: var(--bs-gradient);
     display: flex;
     justify-content: center;
@@ -206,6 +207,46 @@
         /* margin-left: -35%; */
     }
   }
+
+
+  @media screen and (max-width: 412px) {
+    .footerdatafirst {
+      flex-direction: column;
+      text-align: center;
+      
+    }
+    .iconslist{
+        margin-left: -2%;
+        margin-bottom: 5%;
+    }
+    .iconslist,
+    .location,
+    .phone {
+      margin-bottom: 20px;
+    }
+    .iconslist>i {
+      padding-right: 20px;
+    }
+    .location>p,
+    .phone>p {
+      font-size: 12px;
+      margin-left: 10px;
+    }
+    .location>i{
+      margin-left: 50px;
+
+    }
+    .phone>i{
+        margin-left: 100px;
+    }
+
+  
+
+    .quicklink{
+        margin-left: 35%;
+    }
+  }
+  
   
   /* Desktop Styles */
   /* @media screen and (min-width: 992px) {
