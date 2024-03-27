@@ -127,6 +127,7 @@ right: 45%;
   color: var(--bs-white);
   /* margin-left: 5px; */
   font-size: 15px;
+  font-weight: 500;
   margin-top: 30px;
   text-align: center;
 }

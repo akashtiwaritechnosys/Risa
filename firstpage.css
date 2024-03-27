@@ -101,10 +101,11 @@ height: 120px;
 
 .buttons button {
   width: 230px;
-  height: 34px;
+  height: 44px;
   margin-right: 80px;
   margin-top: 65px;
   background-image: var(--bs-gradient);
+  color: var(--bs-white);
   border: none;
 }
 
@@ -126,7 +127,8 @@ height: 120px;
 }
 
 .offcanvas {
-  background-color: transparent !important;
+  /* background-color: transparent !important; */
+  background-color: rgba(20, 20, 20, 0.418);
   height: 580px;
 }
 

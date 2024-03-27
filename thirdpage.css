@@ -30,7 +30,7 @@
   background-image: url(./imgs/TRAINING.png); /* Background image */
   background-repeat: no-repeat;
   background-size: cover;
-  filter: blur(5px); /* Blur the background image */
+  filter: blur(3px); /* Blur the background image */
   z-index: -1;
 }
 
@@ -148,7 +148,7 @@ color: var(--bs-color-gray-3);
 
 
 /* For screens smaller than 1172px */
-/* For screens smaller than 1172px */
+
 @media (max-width: 1172px) {
   .thirdpage {
     flex-direction: column;

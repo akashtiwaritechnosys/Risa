@@ -77,11 +77,11 @@
 
 }
 .inpform button{
-    height: 50px;
-    width: 100px;
+    height: 60px;
+    width: 150px;
     margin-top: 45px;
     border: none;
-    background-color: var(--bs-color-gray-4);
+    background-color: var(--bs-blue-2);
     border-radius: 3px;
     color: var(--bs-white);
 
