@@ -237,50 +237,14 @@
 
     }
     .phone>i{
-        margin-left: 100px;
+        margin-left: 50px;
     }
-
-  
+    .phone>p{
+      width: 100px;
+  }
 
     .quicklink{
         margin-left: 35%;
     }
   }
-  
-  
-  /* Desktop Styles */
-  /* @media screen and (min-width: 992px) {
-    .footerdata {
-      display: flex;
-      justify-content: space-between;
-    }
-    .footerdatafirst {
-      flex: 1;
-      margin-right: 30px;
-    }
-    .footerdatasecond {
-      flex: 2;
-    }
-    .iconslist>i {
-      font-size: 30px;
-      padding-right: 20px;
-    }
-    .location>p,
-    .phone>p {
-      font-size: 16px;
-      margin-left: 10px;
-    }
-    .footerlist {
-      flex-direction: row;
-    }
-    .signupbutton {
-      margin-top: 0;
-    }
-    .bn63 {
-      width: 100%;
-    }
-    .footerlink1 {
-      margin-left: 0;
-    }
-  } */
   

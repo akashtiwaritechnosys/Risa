@@ -50,6 +50,7 @@
   /* Add this CSS at the end of your existing CSS */
 
 @media only screen and (max-width: 768px) {
+ 
   .fourthpage {
     height: auto; /* Adjust height as needed */
     padding: 50px 0; /* Add padding for better spacing */
@@ -78,7 +79,7 @@
 
 
 @media (max-width: 412px) {
-  
+
   
 
   .rightcontent4data {

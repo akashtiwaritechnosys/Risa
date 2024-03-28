@@ -142,13 +142,9 @@ right: 45%;
 
 
 
-
-
-
-
-
 /* Adjustments for smaller screens */
 @media (max-width: 768px) {
+ 
   .testimonials {
     flex-direction: column;
     align-items: center;
@@ -183,8 +179,9 @@ right: 45%;
 
 /* Adjustments for even smaller screens */
 @media (max-width: 576px) {
+ 
   .carousel-indicators {
-    bottom: -55%;
+    bottom: -35%;
   }
 
   .carousel-control-prev,
@@ -193,6 +190,7 @@ right: 45%;
     height: 20px;
     font-size: 12px;
     border-width: 1px;
+    
   }
 
   .carousel-control-prev-icon,
@@ -201,3 +199,8 @@ right: 45%;
     height: 10px;
   }
 }
+
+
+
+
+
